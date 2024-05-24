@@ -1,0 +1,11 @@
+{
+  "name": "my-portfolio",
+  "version": "0.0.9",
+  "homepage": "https://mmrqa.github.io/mmrqa",
+  "scripts": {
+    "deploy": "gatsby build && gh-pages -d public"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
