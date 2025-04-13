@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     max-width: 900px;
     flex-wrap: wrap;
     text-align: center;
@@ -31,11 +31,37 @@
   }
   
   .image-section img {
-    width: 200px;
-    height: 200px;
     border-radius: 100px;
     object-fit: cover;
     border: 4px solid white;
+  }
+
+  .hover-img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .hover-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.4s ease;
+    width: 100%;
+    height: 100%;
+  }
+
+
+.hover-img .hover {
+    opacity: 0;
+  }
+  
+  .hover-img:hover .hover {
+    opacity: 1;
+  }
+  
+  .hover-img:hover .default {
+    opacity: 0;
   }
   
   .text-section {
