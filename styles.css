@@ -58,7 +58,16 @@
     font-size: 2rem;
   }
   
-  
+  .text-section a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .text-section a:hover {
+    text-decoration: none;
+    color: #a3a3a3;
+  }
+
   /* Responsive adjustments */
   @media (max-width: 768px) {
     .content {
